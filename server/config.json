@@ -1,17 +1,17 @@
 {
   "httpport": 3000,
   "checkfreqinsec": 10,
-  "greylistdurationinsec": 120,
-  "claimintervalinsec": 1800,
+  "greylistdurationinsec": 300,
+  "claimintervalinsec": 3600,
   "hcaptchasecret": "YOUR_HCAPTCHA_SECRET",
   "networks": {
     "rpc-mainnet": {
-      "rpc": "https://rpc-mainnet.matic.network",
-      "explorer": "https://polygonscan.com",
+      "rpc": "https://hpbnode.com",
+      "explorer": "https://hpbscan.org",
       "privateKey": "YOUR_PRIVATE_KEY",
       "tokens": {
         "matic": {
-          "payoutamount": 0.0005,
+          "payoutamount": 0.001,
           "maxbalance": 1000000000000000
         }
       }
