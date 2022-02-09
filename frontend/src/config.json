@@ -1,6 +1,6 @@
 {
-  "apiurl": "https://hpbnode.com",
-  "explorer": "https://hpbscan.org",
-  "maxAmount": 1000000000000000,
-  "hcaptchasitekey": "d712e7c4-b981-4761-bb8c-c7af95d016dd"
+  "apiurl": "https://rpc.mainnet.oychain.io",
+  "explorer": "https://explorer.oychain.io",
+  "maxAmount": 500000000000000,
+  "hcaptchasitekey": "11ca964d-6887-4f66-97a3-82a96723a555"
 }
