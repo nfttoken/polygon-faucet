@@ -1,8 +1,8 @@
 {
   "httpport": 3000,
   "checkfreqinsec": 10,
-  "greylistdurationinsec": 300,
-  "claimintervalinsec": 3600,
+  "greylistdurationinsec": 43200,
+  "claimintervalinsec": 43200,
   "hcaptchasecret": "YOUR_HCAPTCHA_SECRET",
   "networks": {
     "rpc-mainnet": {
@@ -10,9 +10,9 @@
       "explorer": "https://hpbscan.org",
       "privateKey": "YOUR_PRIVATE_KEY",
       "tokens": {
-        "matic": {
-          "payoutamount": 0.001,
-          "maxbalance": 1000000000000000
+        "OY": {
+          "payoutamount": 0.0005,
+          "maxbalance": 500000000000000
         }
       }
     }
